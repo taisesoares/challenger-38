@@ -1,0 +1,24 @@
+.contentTitle {
+  margin: 4.313rem auto;
+  text-align: center;
+  max-width: 20rem;
+}
+
+
+.contentTitle h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+
+  line-height: 1.8;
+
+}
+
+.cardOptions {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  gap: 2.875rem;
+  
+  height: 21.875rem;
+}
