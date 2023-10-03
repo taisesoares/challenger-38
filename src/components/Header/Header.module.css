@@ -39,3 +39,11 @@
 .header button:hover {
   background: var(--gray-600);
 }
+
+
+@media only screen and (max-width: 767px) {
+  .header {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}

@@ -98,3 +98,17 @@
   text-align: center;
 
 }
+
+@media only screen and (max-width: 767px) {
+  .card {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .card {
+    width: 100%;
+    max-width: 18rem;
+    height: 21rem;
+  }
+}
